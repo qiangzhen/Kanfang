@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#c2cac0"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/more_ic_qb"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="领Q币"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/more_ic_group"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="领Q币"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/more_ic_remind"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="领Q币"
+        android:textColor="#000"
+        android:textSize="18sp" />
+</LinearLayout>

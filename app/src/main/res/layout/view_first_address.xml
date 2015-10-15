@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--广告页-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:background="#8000"
+            android:orientation="horizontal">
+
+            <!-- 标题 -->
+            <TextView
+                android:id="@+id/titleId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <!-- 导航图片所在的布局控件 -->
+            <LinearLayout
+                android:id="@+id/navLayoutId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <!--广告页结束-->
+
+
+</LinearLayout>

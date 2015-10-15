@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3ea4a5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_choose_city"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:drawableRight="@drawable/title_bar_arrow_nor"
+            android:gravity="center"
+            android:text="北京"
+            android:textColor="#fff"
+            android:textSize="26sp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:drawable/edit_text"
+            android:drawableLeft="@drawable/icon_search"
+            android:hint="区域/楼盘名/开发商"
+            android:textColor="#000" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_sao_1_sao" />
+
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_top"></com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+
+</RelativeLayout>

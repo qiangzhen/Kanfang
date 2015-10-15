@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_choose_city_top"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#3ea4a5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="选择城市"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#889ae9c4"
+            android:text="取消"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:drawableLeft="@drawable/icon_search"
+        android:hint="中文/拼音/首字母" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="9dp"
+        android:background="#c2cac0" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="1dp"
+        android:drawableLeft="@drawable/icon_locate_city"
+        android:gravity="center_vertical"
+        android:text="GPS定位城市:北京"
+        android:textColor="#90978f"
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="1dp"
+        android:background="#c2cac0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#dcbcffde"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="当前选择城市" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c2cac0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="北京"
+        android:textSize="26sp" />
+
+    <ListView
+        android:id="@+id/listview_citys"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>

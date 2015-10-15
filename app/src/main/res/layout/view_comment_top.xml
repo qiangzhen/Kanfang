@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_comment_title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="题目"
+        android:textColor="#000"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tv_comment_sourcrAndTitle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="20dp"
+        android:text="来源" />
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/tv_dis_title"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="haha"
+        android:textColor="#000"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/img_dis"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/tv_dis_title"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_dis_address"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/img_dis"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_dis_price"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_dis_address"
+        android:gravity="left"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_dis_discount"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_dis_price"
+        android:drawableLeft="@drawable/ic_tag"
+        android:gravity="left"
+        android:textColor="#a15a00"
+        android:textSize="22sp" />
+
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/tv_dis_discount"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_getdis"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shapetv"
+            android:gravity="center"
+            android:text="获取优惠"
+            android:textColor="#fff"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/shapetv"
+            android:gravity="center"
+            android:text="电话咨询"
+            android:textColor="#fff"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+</RelativeLayout>
