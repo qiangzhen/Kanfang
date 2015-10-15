@@ -1,6 +1,7 @@
 # Kanfang
 模仿腾讯 看房 App 客户端，实现部分功能。
 
+开发环境：Android Studio
 
 网络框架：Volley /  HttpUrlConnention
 解析：Gson /  自己写的
