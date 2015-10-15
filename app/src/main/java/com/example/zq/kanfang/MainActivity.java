@@ -9,8 +9,11 @@ import android.widget.LinearLayout;
 import com.example.zq.kanfang.fragment.DiscoverFragment;
 import com.example.zq.kanfang.fragment.FirstPageFragment;
 
-public class MainActivity extends FragmentActivity {
+/**
+ * 测试
+ */
 
+public class MainActivity extends FragmentActivity {
 
     private LinearLayout ll_discover;
     private LinearLayout ll_index;
