@@ -24,7 +24,7 @@ public class MainActivity extends FragmentActivity {
 
         setContentView(R.layout.activity_main);
 
-
+        //woqudfgdgd
         ll_discover = (LinearLayout) findViewById(R.id.ll_discover);
         ll_discover.setOnClickListener(new View.OnClickListener() {
             @Override
